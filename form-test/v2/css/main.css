@@ -1,0 +1,153 @@
+
+body {
+    background:url('../gfx/background.jpg');
+    background-size: cover;
+    padding:25px 0px;
+    margin:0px;
+}
+
+.container {
+    width:80%;
+    margin:0px auto;
+}
+
+h1,h2,h3,h4{
+    color:#FFF;
+    font-family: "Bebas Neue";
+    letter-spacing:2px;
+}
+
+h1 {
+    text-transform:uppercase;
+    color:#FFF;
+    font-family: "Bebas Neue";
+    font-size: 11em;
+    margin:0px;
+    line-height: 120px;
+}
+
+h2 {
+    color:#FFF;
+    font-family: "Bebas Neue";
+    margin:0px;
+    font-weight: bold;
+    font-size:32px;
+}
+
+h3,h4{
+    font-size:24px;
+    text-align:justify;
+}
+
+.h3-bg{
+    background-color:rgba(204,149,48,.7);
+    margin-top: 20px;
+}
+
+.h4-bg{
+    background-color:rgba(43,19,24,.5);
+    margin-bottom:30px;
+}
+
+ul li{
+    list-style: none;
+    margin:10px 0px;
+}
+
+ul{
+    padding:0px;
+    width:45%;
+    display:inline-block;
+    vertical-align: top;
+    margin:0px;
+}
+
+fieldset {
+    margin-bottom:30px;
+    background:rgba(43,19,24,.4);
+    font-family:"Bebas Neue";
+    color:#FFF;
+    font-size:24px;
+    padding:30px;
+}
+
+fieldset h2{
+    margin-bottom:10px;
+}
+
+label,input[type='text'] {
+    width:48%;
+    display:inline-block;
+    box-sizing:border-box;
+}
+
+input[type='text']{
+    width:50%;
+    padding:5px;
+    box-sizing:border-box;
+    font-size:16px;
+}
+
+input[type='radio']{
+    float:right;
+}
+
+input[type='email']{
+    width:50%;
+    padding:5px;
+    box-sizing:border-box;
+    font-size:16px;
+}
+
+input[type='checkbox']{
+    padding:10px;
+}
+
+ul.align-right {
+    margin-left:9%;
+}
+
+.gender-label{
+    float:right;
+    margin:0px 5px 0px 15px;
+    width:auto;
+}
+#religious-groups label{
+    width:90%;
+}
+.btn{
+    border:solid 3px #fff;
+    border-radius:5px;
+    padding:15px;
+    width:100px;
+    margin:0px auto;
+    text-align: center;
+    color:#FFF;
+    display:block;
+    text-decoration: none;
+    font-family: "Bebas Neue";
+    font-size: 24px;
+    background:rgba(43,19,24,.4);
+    letter-spacing: 2px;
+}
+#religious-groups .website-btn{
+    margin:0px 0px 25px 0px;
+}
+#religious-groups .btn{
+    padding:5px;
+    font-size:18px;
+    border:solid 1px #FFF;
+    margin:0px;
+}
+.btn:hover{
+    background:#FFF;
+    color:#000;
+}
+.error{
+    color:#b91313;
+    border:solid 1px #b91313;
+    text-decoration:none;
+}
+label.error{
+    border:none;
+}
